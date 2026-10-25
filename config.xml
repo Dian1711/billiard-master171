@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tank171.billiardmaster" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Billiard Master</name>
+    <description>Billiard Master by Tank171 App</description>
+    <author>Tank171 App</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="Orientation" value="default" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xff0b1a12" />
+    <preference name="AndroidWindowSplashScreenBackground" value="#0b1a12" />
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/splash.png" />
+    <preference name="SplashScreenDelay" value="0" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value="0" />
+    <platform name="android">
+        <icon src="res/icon.png" />
+    </platform>
+</widget>
